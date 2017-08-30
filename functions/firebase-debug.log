@@ -1,0 +1,70 @@
+[debug] [2017-08-09T18:19:56.299Z] ----------------------------------------------------------------------
+[debug] [2017-08-09T18:19:56.302Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2017-08-09T18:19:56.303Z] CLI Version:   3.9.2
+[debug] [2017-08-09T18:19:56.303Z] Platform:      darwin
+[debug] [2017-08-09T18:19:56.303Z] Node Version:  v6.9.4
+[debug] [2017-08-09T18:19:56.303Z] Time:          Wed Aug 09 2017 23:49:56 GMT+0530 (IST)
+[debug] [2017-08-09T18:19:56.303Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-08-09T18:19:56.320Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-08-09T18:19:56.321Z] > authorizing via signed-in user
+[debug] [2017-08-09T18:19:56.324Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/securitybuzzer  
+ Wed Aug 09 2017 23:49:56 GMT+0530 (IST)
+[debug] [2017-08-09T18:19:58.114Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-09T18:19:58.116Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/securitybuzzer/tokens  
+ Wed Aug 09 2017 23:49:58 GMT+0530 (IST)
+[debug] [2017-08-09T18:19:59.561Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/dineshadhithya/Desktop/Security-Buzzer-Notifications'...
+[info] 
+[debug] [2017-08-09T18:19:59.567Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/securitybuzzer  
+ Wed Aug 09 2017 23:49:59 GMT+0530 (IST)
+[debug] [2017-08-09T18:20:01.512Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-09T18:20:01.513Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/157461935506/clients/_:getWebAppConfig  
+ Wed Aug 09 2017 23:50:01 GMT+0530 (IST)
+[debug] [2017-08-09T18:20:03.490Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-09T18:20:03.552Z] TypeError: Cannot read property 'public' of undefined
+    at Server.<anonymous> (/Users/dineshadhithya/.config/yarn/global/node_modules/firebase-tools/lib/serve/hosting.js:34:17)
+    at Server.g (events.js:291:16)
+    at emitNone (events.js:86:13)
+    at Server.emit (events.js:185:7)
+    at emitListeningNT (net.js:1285:10)
+    at _combinedTickCallback (internal/process/next_tick.js:71:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2017-08-09T20:29:31.950Z] ----------------------------------------------------------------------
+[debug] [2017-08-09T20:29:31.953Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2017-08-09T20:29:31.953Z] CLI Version:   3.9.2
+[debug] [2017-08-09T20:29:31.953Z] Platform:      darwin
+[debug] [2017-08-09T20:29:31.953Z] Node Version:  v6.9.4
+[debug] [2017-08-09T20:29:31.954Z] Time:          Thu Aug 10 2017 01:59:31 GMT+0530 (IST)
+[debug] [2017-08-09T20:29:31.954Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-08-09T20:29:31.967Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-08-09T20:29:31.968Z] > authorizing via signed-in user
+[debug] [2017-08-09T20:29:31.970Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/securitybuzzer  
+ Thu Aug 10 2017 01:59:31 GMT+0530 (IST)
+[debug] [2017-08-09T20:29:34.689Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-09T20:29:34.690Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/securitybuzzer/tokens  
+ Thu Aug 10 2017 01:59:34 GMT+0530 (IST)
+[debug] [2017-08-09T20:29:35.871Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/dineshadhithya/Desktop/Security-Buzzer-Notifications'...
+[info] 
+[debug] [2017-08-09T20:29:35.877Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/securitybuzzer  
+ Thu Aug 10 2017 01:59:35 GMT+0530 (IST)
+[debug] [2017-08-09T20:29:37.754Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-09T20:29:37.754Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/157461935506/clients/_:getWebAppConfig  
+ Thu Aug 10 2017 01:59:37 GMT+0530 (IST)
+[debug] [2017-08-09T20:29:38.956Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-09T20:29:39.022Z] TypeError: Cannot read property 'public' of undefined
+    at Server.<anonymous> (/Users/dineshadhithya/.config/yarn/global/node_modules/firebase-tools/lib/serve/hosting.js:34:17)
+    at Server.g (events.js:291:16)
+    at emitNone (events.js:86:13)
+    at Server.emit (events.js:185:7)
+    at emitListeningNT (net.js:1285:10)
+    at _combinedTickCallback (internal/process/next_tick.js:71:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+[error] 
+[error] Error: An unexpected error has occurred.
